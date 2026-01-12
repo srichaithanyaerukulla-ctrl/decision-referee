@@ -1,4 +1,0 @@
-- EC2 offers full control but requires server management.
-- Lambda reduces operational effort but may cause cold start latency.
-- EC2 fits steady workloads.
-- Lambda fits spiky workloads.
