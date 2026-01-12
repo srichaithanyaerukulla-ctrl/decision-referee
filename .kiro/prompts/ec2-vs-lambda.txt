@@ -1,0 +1,9 @@
+Compare AWS EC2 and AWS Lambda.
+
+Explain:
+- Cost model
+- Scalability
+- Operational effort
+- Trade-offs
+
+Do NOT recommend a single option.
