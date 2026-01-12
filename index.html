@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Decision Referee – EC2 vs Lambda</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h2>EC2 vs AWS Lambda – Decision Referee</h2>
+  <p>Select your requirements to understand trade-offs.</p>
+
+  <label>Traffic Pattern:</label>
+  <select id="traffic">
+    <option value="steady">Steady</option>
+    <option value="spiky">Spiky</option>
+  </select>
+
+  <label>Budget Sensitivity:</label>
+  <select id="budget">
+    <option value="low">Low</option>
+    <option value="high">High</option>
+  </select>
+
+  <label>Scalability Need:</label>
+  <select id="scalability">
+    <option value="low">Low</option>
+    <option value="high">High</option>
+  </select>
+
+  <label>Latency Sensitivity:</label>
+  <select id="latency">
+    <option value="low">Low</option>
+    <option value="high">High</option>
+  </select>
+
+  <br>
+  <button onclick="compare()">Compare</button>
+
+  <pre id="result"></pre>
+
+  <script src="script.js"></script>
+</body>
+</html>

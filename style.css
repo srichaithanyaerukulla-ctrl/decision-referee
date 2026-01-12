@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 720px;
+  margin: auto;
+  padding: 25px;
+  background-color: #f5f7fb; /* light background */
+  color: #333;
+}
+
+/* Heading */
+h2 {
+  color: #1f3c88; /* deep blue */
+  text-align: center;
+}
+
+/* Description text */
+p {
+  text-align: center;
+  color: #555;
+}
+
+/* Labels */
+label {
+  display: block;
+  margin-top: 14px;
+  font-weight: bold;
+  color: #2c2c2c;
+}
+
+/* Dropdowns */
+select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+
+/* Button */
+button {
+  margin-top: 25px;
+  padding: 10px 18px;
+  width: 100%;
+  background-color: #1f3c88; /* blue */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #162a63;
+}
+
+/* Output box */
+pre {
+  margin-top: 25px;
+  background-color: #ffffff;
+  padding: 18px;
+  border-left: 5px solid #1f3c88;
+  border-radius: 5px;
+  white-space: pre-wrap;
+  color: #000;
+}
